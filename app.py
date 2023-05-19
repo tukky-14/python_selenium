@@ -15,6 +15,9 @@ driver = webdriver.Chrome(chrome_options=chrome_options)
 # Googleのホームページにアクセス
 driver.get("http://www.google.com")
 
+# ウィンドウのサイズを指定
+driver.set_window_size(1280, 800)
+
 # 検索ボックスに入力
 search_box = driver.find_element(by=By.NAME, value="q")
 search_box.send_keys("Selenium Python")
@@ -24,6 +27,11 @@ search_box.send_keys(Keys.RETURN)
 
 # 結果が表示されるまで待機
 time.sleep(1)
+
+# スクリーンショットを保存
+screenshot = driver.get_screenshot_as_png()
+with open("screenshot.png", "wb") as file:
+    file.write(screenshot)
 
 # 検索結果のURLを取得
 search_results = driver.find_element(By.ID, "rso").find_elements(By.TAG_NAME, "a")
