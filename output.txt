@@ -1,0 +1,29 @@
+図解！PythonでSeleniumを使ったスクレイピングを徹底解説 ...
+https://ai-inter1.com/python-selenium/
+
+PythonとSeleniumを使ったプチ自動化で業務効率UPしてみた
+https://tech-blog.rakus.co.jp/entry/20221222/selenium
+
+Selenium入門 Pythonでブラウザを自動化したい方必読！
+https://aiacademy.jp/media/?p=346
+
+【Python】Seleniumとは？Webブラウザ操作の自動化方法を ...
+https://di-acc2.com/system/rpa/10270/
+
+Selenium with Python — Selenium Python Bindings 2 ...
+https://selenium-python.readthedocs.io/
+
+【python】seleniumライブラリを使ったWebスクレイピング ...
+https://junpage.com/python-webscraping-selenium/
+
+【入門】Selenium×Pythonの使い方！Chromeブラウザを自動 ...
+https://toukei-lab.com/selenium-python
+
+第26回.WEBスクレイピング（selenium） - Python入門
+https://excel-ubara.com/python/python026.html
+
+PythonでSeleniumを操作する
+https://kurozumi.github.io/selenium-python/index.html
+
+7. WebDriver API — Selenium Python Bindings 2 ドキュメント
+https://kurozumi.github.io/selenium-python/api.html
